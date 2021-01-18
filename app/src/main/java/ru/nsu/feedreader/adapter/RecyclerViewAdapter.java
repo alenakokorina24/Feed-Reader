@@ -99,6 +99,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         holder.title.setText(model.getTitle());
     }
 
+
     @Override
     public int getItemCount() {
         return articles.size();

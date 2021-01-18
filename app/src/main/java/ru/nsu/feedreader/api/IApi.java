@@ -7,7 +7,8 @@ import ru.nsu.feedreader.model.Data;
 
 public interface IApi {
 
-    @GET("top-headlines")
-    Call<Data> getNews(@Query("country") String country, @Query("apiKey") String apiKey);
+    @GET("everything")
+    Call<Data> getNews(@Query("q") String query, @Query("pageSize") int pageSize,
+                       @Query("page") int page, @Query("apiKey") String apiKey);
 
 }
