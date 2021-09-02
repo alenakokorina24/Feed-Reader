@@ -25,7 +25,7 @@ import ru.nsu.feedreader.model.Data;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String API_KEY = "599621708f7643cc833cb03914a668b4";
+    public static final String API_KEY = <api key>;
     private static final int PAGE_SIZE = 4;
 
     private RecyclerView recyclerView;
